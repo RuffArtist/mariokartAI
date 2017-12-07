@@ -4,13 +4,13 @@
 Instructions to install python console M64py:
 
 0. 	Possible dependences:
-		sudo apt-get install binutils-dev
-		sudo apt-get install libiberty-dev
+		sudo apt-get install binutils-dev //
+		sudo apt-get install libiberty-dev //
 		pip install pysdl2
 
 1. 	Install m64py-0.2.3 (https://sourceforge.net/projects/m64py/files/m64py-0.2.3/m64py-0.2.3.tar.gz/download)
 
-2. 	https://github.com/mupen64plus/mupen64plus-core.git (https://github.com/mupen64plus/mupen64plus-core/tree/d679ba0292be679fe1ba27e611b0015708c2dfec)
+2. 	Download or clone git repository https://github.com/mupen64plus/mupen64plus-core.git (https://github.com/mupen64plus/mupen64plus-core/tree/d679ba0292be679fe1ba27e611b0015708c2dfec)
 
 3. 	Change name of the folder to mupen64plus-core
 
@@ -32,11 +32,8 @@ Instructions to install python console M64py:
 
 12. 	Download: https://bitbucket.org/runhello/mupen64plus-ui-python/downloads/
 
-13.	Open folder and search for README_ORIGINAL.md
-		In terminal: python setup.py install
-		In terminal: python setup.py build_qt
+13.	Open folder and search for README_ORIGINAL.md (python setup.py install // python setup.py build_qt)
 		
-14. 	Open m64py-0.2.3 (m64py)
-		- Go to settings and change the Library file path for the one generated in point 4
+14. 	Open m64py-0.2.3 (m64py). Go to settings and change the Library file path for the one generated in point 4
 
 15. You are good to go ! 
