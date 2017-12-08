@@ -35,3 +35,9 @@ Instructions to install python console M64py:
 13. 	Open m64py-0.2.3 (m64py). Go to settings and change the Library file path for the one generated in point 4
 
 14. 	You are good to go ! 
+
+---
+
+To activate the second controller the mode in the config file (in /home/your_ubuntu_username/.config/mupen64plus) has to be changed to 0, and set the mode for the first one to 1.
+
+

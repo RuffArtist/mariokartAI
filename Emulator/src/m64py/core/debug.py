@@ -232,6 +232,7 @@ class Debug:
 
     def buttons_override_struct(self, current, controller=0):
         self.check_supported_input()
+        print C.pointer
         C.pointer(self.current_buttons[controller])[0] = current
         self.input.ButtonsOverrideExploded(controller, current)
 
@@ -244,7 +245,7 @@ class Debug:
         self.check_supported_input()
 
         if reset:
-            buttons_override_reset_state()
+            self.buttons_override_reset_state()
 
         current = self.current_buttons[controller]
 
