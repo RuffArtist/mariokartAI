@@ -26,14 +26,12 @@ Instructions to install python console M64py:
 
 9. 	In terminal: make all DEBUGGER=1 CPU=x86
 
-10.	Move library from 5.4 to M64py generic plugin folder (/usr/lib/x86_64-linux-gnu/mupen64plus)
+10.	Move library from 5.4 to M64py generic plugin folder (/usr/lib/x86_64-linux-gnu/mupen64plus) (sudo cp mupen64plus-input-sdl.so /usr/lib/x86_64-linux-gnu/mupen64plus)
 
-11. 	In terminal: sudo cp mupen64plus-input-sdl.so /usr/lib/x86_64-linux-gnu/mupen64plus
+11. 	Download: https://bitbucket.org/runhello/mupen64plus-ui-python/downloads/
 
-12. 	Download: https://bitbucket.org/runhello/mupen64plus-ui-python/downloads/
-
-13.	Open folder and search for README_ORIGINAL.md (python setup.py install // python setup.py build_qt)
+12.	Open folder and search for README_ORIGINAL.md (python setup.py install // python setup.py build_qt)
 		
-14. 	Open m64py-0.2.3 (m64py). Go to settings and change the Library file path for the one generated in point 4
+13. 	Open m64py-0.2.3 (m64py). Go to settings and change the Library file path for the one generated in point 4
 
-15. You are good to go ! 
+14. 	You are good to go ! 
