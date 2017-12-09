@@ -91,5 +91,5 @@ def prepare_image(path):
 
 
 if __name__ == '__main__':
-    path = 'test.png'
+    path = 'mariokart64-544.png'
     prepare_image(path)
